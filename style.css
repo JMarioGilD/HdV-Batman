@@ -47,10 +47,14 @@ main {
     border-radius: 50%;
 }
 
+.box-1 {
+    position: relative;
+}
+
 #Titulo {
     background-color: #4d4d4d;
     padding: 10px;
-    color: #305d82;
+    color: #002a45;
     text-align: left;
     padding-left: 20px;
     margin-right: -15;
@@ -65,6 +69,65 @@ main {
     background-color: #5a5959;
     transform: rotate(56deg);
     z-index: -1;
+}
+
+#p1 {
+    padding: 7px 14px;
+    font-size: 11px;
+}
+
+#icons3 {
+    font-size: 16px;
+    padding-right: 10px;
+    vertical-align: sub;
+}
+
+.contenedor-habilidades {
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 10px 10px;
+}
+
+.habilidad {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.Detective {
+    width: 80%;
+    background-color: white;
+}
+
+.Genio {
+    width: 100%;
+    background-color: white;
+}
+
+.Estratega {
+    width: 95%;
+    background-color: white;
+}
+
+.Acrobata {
+    width: 90%;
+    background-color: white;
+}
+
+.ArtesMarciales {
+    width: 95%;
+    background-color: white;
+}
+
+.Escapismo {
+    width: 96%;
+    background-color: white;
+}
+
+.AltaTecnologia {
+    width: 100%;
+    background-color: white;
 }
 
 #container-derecho {
